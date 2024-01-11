@@ -132,8 +132,8 @@ export default function Home({copiedDataLayer}) {
   //   });
   //   return false;
   // }
-  const handleClick = () => {
-     gtag_report_conversion('https://wa.me/77758316104')
+  const handleClick = (link) => {
+     gtag_report_conversion(`${link}`)
   }
   return (
     <>
@@ -161,10 +161,9 @@ export default function Home({copiedDataLayer}) {
           className={"overflow-hidden"}
         >
           {/*<Suspense fallback={<Loader/>}>*/}
-            <button onClick={handleClick}>Клікай сука і пробуй</button>
+          {/*  <button onClick={handleClick}>Клікай сука і пробуй</button>*/}
           {/*</Suspense>*/}
-          <Hero pixel={() => {
-          }}/>
+          <Hero pixel={ handleClick}/>
           <About/>
           <Services/>
           {/*<p className="remark py-[20px]">*Результат может варьироваться от случая к случаю</p>*/}
