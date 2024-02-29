@@ -13,55 +13,55 @@ export default function App({Component, pageProps}) {
 // })
 
   return <>
-    <head dangerouslySetInnerHTML={{
-      __html: `
-      <title>Anna Sokolova</title>
-      <meta
-      name='viewport'
-      content='minimum-scale=1, initial-scale=1, width=device-width'
-      />
+{/*    <head dangerouslySetInnerHTML={{*/}
+{/*      __html: `*/}
+{/*      <title>Anna Sokolova</title>*/}
+{/*      <meta*/}
+{/*      name='viewport'*/}
+{/*      content='minimum-scale=1, initial-scale=1, width=device-width'*/}
+{/*      />*/}
 
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11451210787"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-      
-        gtag('config', 'AW-11451210787');
-      </script>
-      
-      <!-- Event snippet for Перегляд сторінки conversion page -->
-      <script>
-        gtag('event', 'conversion', {'send_to': 'AW-11451210787/xZJWCImT0oAZEKO4rtQq'});
-      </script>
-      <!-- Event snippet for click conversion page
-      In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-      <script>
-      function gtag_report_conversion(url) {
-        var callback = function () {
-          if (typeof(url) != 'undefined') {
-            window.location = url;
-          }
-        };
-        gtag('event', 'conversion', {
-            'send_to': 'AW-11451210787/1EaLCLbX14EZEKO4rtQq',
-            'event_callback': callback
-        });
-        return false;
-      }
-      </script>
+{/*      <!-- Google tag (gtag.js) -->*/}
+{/*      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11451210787"></script>*/}
+{/*      <script>*/}
+{/*        window.dataLayer = window.dataLayer || [];*/}
+{/*        function gtag(){dataLayer.push(arguments);}*/}
+{/*        gtag('js', new Date());*/}
+{/*      */}
+{/*        gtag('config', 'AW-11451210787');*/}
+{/*      </script>*/}
+{/*      */}
+{/*      <!-- Event snippet for Перегляд сторінки conversion page -->*/}
+{/*      <script>*/}
+{/*        gtag('event', 'conversion', {'send_to': 'AW-11451210787/xZJWCImT0oAZEKO4rtQq'});*/}
+{/*      </script>*/}
+{/*      <!-- Event snippet for click conversion page*/}
+{/*      In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->*/}
+{/*      <script>*/}
+{/*      function gtag_report_conversion(url) {*/}
+{/*        var callback = function () {*/}
+{/*          if (typeof(url) != 'undefined') {*/}
+{/*            window.location = url;*/}
+{/*          }*/}
+{/*        };*/}
+{/*        gtag('event', 'conversion', {*/}
+{/*            'send_to': 'AW-11451210787/1EaLCLbX14EZEKO4rtQq',*/}
+{/*            'event_callback': callback*/}
+{/*        });*/}
+{/*        return false;*/}
+{/*      }*/}
+{/*      </script>*/}
 
-    <!-- Google Tag Manager --> 
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': 
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], 
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); 
-    })(window,document,'script','dataLayer','GTM-WWGT8MTL');</script> 
-    <!-- End Google Tag Manager -->
+{/*    <!-- Google Tag Manager --> */}
+{/*    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': */}
+{/*    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], */}
+{/*    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= */}
+{/*    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); */}
+{/*    })(window,document,'script','dataLayer','GTM-WWGT8MTL');</script> */}
+{/*    <!-- End Google Tag Manager -->*/}
 
-`
-    }}/>
+{/*`*/}
+{/*    }}/>*/}
 
     {/*<head>*/}
     {/*  <title>Anna Sokolova</title>*/}
