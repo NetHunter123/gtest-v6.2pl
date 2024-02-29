@@ -63,12 +63,7 @@ export default function Home({copiedDataLayer}) {
 
 
   const contacts = [
-    {
-    text: "Instagram",
-    link: "https://www.instagram.com/anna_astahova1shsjdbsndn?igshid=YzVkODRmOTdmMw%3D%3D&utm_source=qr",
-    icon: <IconBrandInstagram strokeWidth={1.7} size={rem(40)}/>,
-    miniIcon: <IconBrandInstagram strokeWidth={1.7} size={rem(30)}/>
-  },
+
     // {
     //   text: "Facebook", link: "https://m.me/Astachowa.Anna",
     //   icon: <IconBrandFacebook strokeWidth={1.7} size={rem(40)}/>,

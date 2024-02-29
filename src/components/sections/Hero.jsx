@@ -24,9 +24,8 @@ const Hero = ({pixel}) => {
             </div>
             <p className={"infoText max-[768px]:text-center text-[16px] lg:text-[18px] whitespace-pre-wrap w-full"}>Я
               помогу вам найти решение ваших проблем, даже когда известные методы не работают.</p>
-            <p
-              className={"infoText max-[768px]:mb-5 text-[16px] lg:text-[18px] font-bold md:mb-[20px] lg:mb-[40px]"}>Запишитесь
-              на консультацию!</p>
+            <p className={"infoText max-[768px]:mb-5 text-[16px] lg:text-[18px] font-bold md:mb-[20px] lg:mb-[40px]"}>Запишитесь
+              на консультацию<span className={"block"}>(ПИШИТЕ ИЛИ ЗВОНИТЕ МНЕ НА ВОТСАП)!</span> </p>
             <div className="info__btn flex  gap-[20px] lg:gap-[40px] max-md:mb-0 mb-[60px]">
               <Button text={"Услуги"} link={"#services"} place={"hero"} variant={"outline"}/>
               <Button text={"Связаться со мной"} target="_blank" link={"https://wa.me/77088460305"} onClick={()=>pixel("https://wa.me/77088460305")} place={"hero"}/>
