@@ -29,7 +29,7 @@ const Hero = ({pixel}) => {
               на консультацию!</p>
             <div className="info__btn flex  gap-[20px] lg:gap-[40px] max-md:mb-0 mb-[60px]">
               <Button text={"Услуги"} link={"#services"} place={"hero"} variant={"outline"}/>
-              <Button text={"Связаться со мной"} target="_blank" link={"https://wa.me/77758316104"} onClick={()=>pixel("https://wa.me/77758316104")} place={"hero"}/>
+              <Button text={"Связаться со мной"} target="_blank" link={"https://wa.me/77088460305"} onClick={()=>pixel("https://wa.me/77088460305")} place={"hero"}/>
             </div>
           </div>
 

@@ -62,7 +62,8 @@ export default function Home({copiedDataLayer}) {
   // }
 
 
-  const contacts = [{
+  const contacts = [
+    {
     text: "Instagram",
     link: "https://www.instagram.com/anna_astahova1shsjdbsndn?igshid=YzVkODRmOTdmMw%3D%3D&utm_source=qr",
     icon: <IconBrandInstagram strokeWidth={1.7} size={rem(40)}/>,
@@ -74,12 +75,12 @@ export default function Home({copiedDataLayer}) {
     //   miniIcon: <IconBrandFacebook strokeWidth={1.7} size={rem(30)}/>
     // },
     {
-      text: "Whatsapp", link: "https://wa.me/77758316104",
+      text: "Whatsapp", link: "https://wa.me/77088460305",
       icon: <IconBrandWhatsapp strokeWidth={1.7} size={rem(40)}/>,
       miniIcon: <IconBrandWhatsapp strokeWidth={1.7} size={rem(30)}/>
     },
     {
-      text: "Telegram", link: "https://t.me/your_medium",
+      text: "Telegram", link: "https://t.me/annasokolova_official",
       icon: <IconBrandTelegram strokeWidth={1.7} size={rem(40)}/>,
       miniIcon: <IconBrandTelegram strokeWidth={1.7} size={rem(30)}/>
     }
