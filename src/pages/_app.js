@@ -32,17 +32,17 @@ export default function App({Component, pageProps}) {
 		  gtag('config', 'AW-11451210787');
 		</script>
 
-		<!-- Event snippet for клік на ссилку для переходу conversion page
-		In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-		<script>
+		<!-- Event snippet for Клік зов посилання conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
 function gtag_report_conversion(url) {
   var callback = function () {
     if (typeof(url) != 'undefined') {
-      window.location = url;
+      window.open(url, '_blank');
     }
   };
   gtag('event', 'conversion', {
-      'send_to': 'AW-11451210787/v_ruCPz00K4ZEKO4rtQq',
+      'send_to': 'AW-11451210787/UGnKCOj51q4ZEKO4rtQq',
       'value': 150.0,
       'currency': 'UAH',
       'event_callback': callback
