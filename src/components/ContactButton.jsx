@@ -4,8 +4,9 @@ import {Montserrat} from "next/font/google";
 
 const montserrat = Montserrat({subsets: ['cyrillic']})
 
-const ContactButton = ({text, link, icon, mini = false}) => {
+const ContactButton = ({text, link, icon, mini = false, click}) => {
   return (<Button
+	  onClick={click(link)}
     component="a"
     target="_blank"
     rel="noopener noreferrer"

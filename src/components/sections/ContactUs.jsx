@@ -4,6 +4,9 @@ import {IconBrandInstagram, IconBrandTelegram, IconBrandWhatsapp, IconBrandFaceb
 import ContactButton from "@/components/ContactButton";
 import useMediaQueries from "@/utils/useMediaQueries";
 
+const gTagConvers = (url) => {
+	gtag_report_conversion(url)
+}
 
 const ContactUs = ({contacts}) => {
   const md = useMediaQueries("md")
@@ -35,7 +38,7 @@ const ContactUs = ({contacts}) => {
                 return <div className={"inline-block  w-fit"
                   // "max-lg:mb-[20px] mb-[30px]" +
                   }  key={btn.text}>
-                  <ContactButton text={btn.text} link={btn.link} icon={btn.icon}/>
+                  <ContactButton click={gTagConvers} text={btn.text} link={btn.link} icon={btn.icon}/>
                   </div>
               })}
 
