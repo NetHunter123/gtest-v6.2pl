@@ -42,7 +42,7 @@ export default function App({Component, pageProps}) {
 		    }
 		  };
 		  gtag('event', 'conversion', {
-		      'send_to': 'AW-11451210787/HbuOCMSWz64ZEKO4rtQq',
+		      'send_to': 'AW-11451210787/r4ctCOvqz64ZEKO4rtQq',
 		      'value': 150.0,
 		      'currency': 'UAH',
 		      'event_callback': callback
