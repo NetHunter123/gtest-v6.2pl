@@ -70,12 +70,12 @@ export default function Home({copiedDataLayer}) {
     //   miniIcon: <IconBrandFacebook strokeWidth={1.7} size={rem(30)}/>
     // },
     {
-      text: "Whatsapp", link: "https://wa.me/77088460305",
+      text: "Whatsapp", link: "https://wa.me/message/NG43XOMF7ZLND1",
       icon: <IconBrandWhatsapp strokeWidth={1.7} size={rem(40)}/>,
       miniIcon: <IconBrandWhatsapp strokeWidth={1.7} size={rem(30)}/>
     },
     {
-      text: "Telegram", link: "https://t.me/annasokolova_official",
+      text: "Telegram", link: "https://t.me/Anna_astahovaofficial",
       icon: <IconBrandTelegram strokeWidth={1.7} size={rem(40)}/>,
       miniIcon: <IconBrandTelegram strokeWidth={1.7} size={rem(30)}/>
     }
@@ -94,6 +94,7 @@ export default function Home({copiedDataLayer}) {
   //   });
   //   return false;
   // }
+	
   const handleClick = (link) => {
      // gtag_report_conversion(`${link}`)
   }
