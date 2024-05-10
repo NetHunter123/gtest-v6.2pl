@@ -38,7 +38,7 @@ export default function App({Component, pageProps}) {
 		function gtag_report_conversion(url) {
 		  var callback = function () {
 		    if (typeof(url) != 'undefined') {
-		      window.location = url;
+		      window.open(url, '_blank');
 		    }
 		  };
 		  gtag('event', 'conversion', {
