@@ -14,7 +14,7 @@ const Hero = ({pixel}) => {
         <div className={"flex w-full justify-center md:justify-between items-center md:py-[30px] lg:py-[60px]"}>
 
           <div className="info max-[768px]:flex max-[768px]:flex-col max-[768px]:items-center mr-0 md:mr-[30px]">
-            <h1 className={"text-primary text-[40px] lg:text-s64 font-[300] mb-[10px] max-sm:text-[38px]"}>Анна Соколова</h1>
+            <h1 className={"text-primary text-[40px] lg:text-s64 font-[300] mb-[10px] max-sm:text-[38px]"}>Анна Астахова</h1>
             {/*<p className={"infoText text-[18px] lg:text-s22 mb-[25px]"}>Родовая ведьма черной магии</p>*/}
             <p className={"infoText text-[18px] lg:text-s22 mb-[25px] max-md:text-center"}>Профессиональные расклады
               таро, снятие проклятий, предсказания</p>

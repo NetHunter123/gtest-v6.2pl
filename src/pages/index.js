@@ -9,17 +9,17 @@ import Reviews from "@/components/sections/Reviews";
 import ContactUs from "@/components/sections/ContactUs";
 import {IconBrandFacebook, IconBrandInstagram, IconBrandTelegram, IconBrandWhatsapp} from "@tabler/icons-react";
 import {rem} from "@mantine/core";
-import Hotjar from '@hotjar/browser';
-import Script from 'next/script'
-
-import {useEffect, useState} from "react";
-import {gtag} from "ga-gtag";
-import Head from "next/head";
+// import Hotjar from '@hotjar/browser';
+// import Script from 'next/script'
+//
+// import {useEffect, useState} from "react";
+// import {gtag} from "ga-gtag";
+// import Head from "next/head";
 // import { gtag } from 'gtag/react';
 
-
-const siteId = 3802078;
-const hotjarVersion = 6;
+//
+// const siteId = 3802078;
+// const hotjarVersion = 6;
 
 const montserrat = Montserrat({subsets: ['cyrillic']})
 
@@ -99,7 +99,6 @@ export default function Home({copiedDataLayer}) {
   }
   return (
     <>
-
       {/*<Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11451210787"></Script>*/}
       {/*<Script id="google-analytics">{`*/}
       {/*  window.dataLayer = window.dataLayer || [];*/}
