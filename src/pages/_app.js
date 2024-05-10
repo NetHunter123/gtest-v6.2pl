@@ -35,21 +35,21 @@ export default function App({Component, pageProps}) {
 		<!-- Event snippet for клік на ссилку для переходу conversion page
 		In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 		<script>
-		function gtag_report_conversion(url) {
-		  var callback = function () {
-		    if (typeof(url) != 'undefined') {
-		      window.open(url, '_blank');
-		    }
-		  };
-		  gtag('event', 'conversion', {
-		      'send_to': 'AW-11451210787/r4ctCOvqz64ZEKO4rtQq',
-		      'value': 150.0,
-		      'currency': 'UAH',
-		      'event_callback': callback
-		  });
-		  return false;
-		}
-		</script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-11451210787/v_ruCPz00K4ZEKO4rtQq',
+      'value': 150.0,
+      'currency': 'UAH',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
 `
 	  }}/>
 	  
