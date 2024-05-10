@@ -4,9 +4,10 @@ import {IconBrandInstagram, IconBrandTelegram, IconBrandWhatsapp, IconBrandFaceb
 import ContactButton from "@/components/ContactButton";
 import useMediaQueries from "@/utils/useMediaQueries";
 
-const gTagConvers = (url) => {
-	gtag_report_conversion(url)
-}
+
+// const gTagConvers = (url) => {
+// 	gtag_report_conversion(url)
+// }
 
 const ContactUs = ({contacts}) => {
   const md = useMediaQueries("md")
@@ -33,23 +34,22 @@ const ContactUs = ({contacts}) => {
               <p className={"infoText font-bold text-center"}>Чтобы связаться со мной, отправьте мне сообщение любым удобным для Вас способом.</p>
               {/*<p className={"infoText font-bold text-center"}>Контакты для связи со мной:</p>*/}
             </div>
-            <div className="btns flex flex-wrap gap-[10px] justify-center">
-              {contacts.map((btn) => {
-                return <div className={"inline-block  w-fit"
-                  // "max-lg:mb-[20px] mb-[30px]" +
-                  }  key={btn.text}>
-                  <ContactButton click={gTagConvers} text={btn.text} link={btn.link} icon={btn.icon}/>
-                  </div>
-              })}
-
-            </div>
+	          <div className="btns flex flex-wrap gap-[10px] justify-center">
+		          {contacts.map((btn) => {
+			          return <div className={"inline-block  w-fit"
+				          // "max-lg:mb-[20px] mb-[30px]" +
+			          } key={btn.text}>
+				          <ContactButton text={btn.text} link={btn.link} icon={btn.icon}/>
+			          </div>
+		          })}
+	          </div>
           </div>
-
+        
         </div>
       </div>
     </>
   )
-    ;
+	  ;
 };
 
 export default ContactUs;
