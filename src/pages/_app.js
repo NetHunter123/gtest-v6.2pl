@@ -22,29 +22,27 @@ export default function App({Component, pageProps}) {
       />
       
       
-    <!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11451210787"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		
-		  gtag('config', 'AW-11451210787');
-		</script>
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11422553875"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-		<!-- Event snippet for Клік зов посилання conversion page
+  gtag('config', 'AW-11422553875');
+</script>
+
+		<!-- Event snippet for Клік зовнішнього посилання conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
 function gtag_report_conversion(url) {
   var callback = function () {
     if (typeof(url) != 'undefined') {
-      window.open(url, '_blank');
+      window.location = url;
     }
   };
   gtag('event', 'conversion', {
-      'send_to': 'AW-11451210787/UGnKCOj51q4ZEKO4rtQq',
-      'value': 150.0,
-      'currency': 'UAH',
+      'send_to': 'AW-11422553875/h2U5COD-srcZEJOu2cYq',
       'event_callback': callback
   });
   return false;
