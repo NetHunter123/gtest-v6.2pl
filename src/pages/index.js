@@ -9,18 +9,6 @@ import Reviews from "@/components/sections/Reviews";
 import ContactUs from "@/components/sections/ContactUs";
 import {IconBrandFacebook, IconBrandInstagram, IconBrandTelegram, IconBrandWhatsapp} from "@tabler/icons-react";
 import {rem} from "@mantine/core";
-// import Hotjar from '@hotjar/browser';
-// import Script from 'next/script'
-//
-// import {useEffect, useState} from "react";
-// import {gtag} from "ga-gtag";
-// import Head from "next/head";
-// import { gtag } from 'gtag/react';
-
-//
-// const siteId = 3802078;
-// const hotjarVersion = 6;
-
 const montserrat = Montserrat({subsets: ['cyrillic']})
 
 export default function Home({copiedDataLayer}) {
@@ -70,7 +58,7 @@ export default function Home({copiedDataLayer}) {
     //   miniIcon: <IconBrandFacebook strokeWidth={1.7} size={rem(30)}/>
     // },
     {
-      text: "Whatsapp", link: "https://wa.me/message/NG43XOMF7ZLND1",
+      text: "Whatsapp", link: "https://wa.me/message/EUP3YVH3JKMCG1",
       icon: <IconBrandWhatsapp strokeWidth={1.7} size={rem(40)}/>,
       miniIcon: <IconBrandWhatsapp strokeWidth={1.7} size={rem(30)}/>
     },
