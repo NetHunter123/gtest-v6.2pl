@@ -36,9 +36,9 @@ const Hero = ({pixel}) => {
 						<div className="info__btn flex  gap-[20px] lg:gap-[40px] max-md:mb-0 mb-[60px]">
 							<Button text={"Услуги"} link={"#services"} place={"hero"} variant={"outline"}/>
 							<Button text={"Связаться со мной"} target="_blank"
-							        link={"https://wa.me/message/EUP3YVH3JKMCG1"}
+							        link={"https://wa.me/77474354080"}
 							        onClick={() => {
-								        gTagConvers("https://wa.me/message/EUP3YVH3JKMCG1")
+								        gTagConvers("httpgit s://wa.me/message/EUP3YVH3JKMCG1")
 							        }}
 							        place={"hero"}/>
 						</div>

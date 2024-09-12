@@ -58,7 +58,7 @@ export default function Home({copiedDataLayer}) {
     //   miniIcon: <IconBrandFacebook strokeWidth={1.7} size={rem(30)}/>
     // },
     {
-      text: "Whatsapp", link: "https://wa.me/message/EUP3YVH3JKMCG1",
+      text: "Whatsapp", link: "https://wa.me/77474354080",
       icon: <IconBrandWhatsapp strokeWidth={1.7} size={rem(40)}/>,
       miniIcon: <IconBrandWhatsapp strokeWidth={1.7} size={rem(30)}/>
     },
