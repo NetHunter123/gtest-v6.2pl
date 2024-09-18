@@ -84,7 +84,7 @@ export default function Home({copiedDataLayer}) {
   // }
 	
   const handleClick = (link) => {
-     // gtag_report_conversion(`${link}`)
+     gtag_report_conversion(`${link}`)
   }
   return (
     <>
