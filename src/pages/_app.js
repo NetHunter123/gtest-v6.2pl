@@ -29,6 +29,10 @@ useEffect(()=>{
 
   gtag('config', 'AW-16676447322');
 </script>
+<!-- Event snippet for Просмотр страницы conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-16676447322/qqoVCNbO6tMZENrI-Y8-'});
+</script>
 		<!-- Event snippet for клік conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
