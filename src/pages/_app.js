@@ -2,15 +2,15 @@ import '@/styles/globals.css'
 import 'react-medium-image-zoom/dist/styles.css'
 // import Head from "next/head";
 import {MantineProvider} from '@mantine/core'
-// import {useEffect} from "react";
+import {useEffect} from "react";
 // import {gtag} from "ga-gtag";
 
 
 export default function App({Component, pageProps}) {
 
-// useEffect(()=>{
-//   window.dataLayer = window.dataLayer || [];
-// })
+useEffect(()=>{
+  window.dataLayer = window.dataLayer || [];
+})
 
   return <>
 	  <head dangerouslySetInnerHTML={{
