@@ -20,20 +20,26 @@ useEffect(()=>{
       name='viewport'
       content='minimum-scale=1, initial-scale=1, width=device-width'
       />
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16676447322"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!--&lt;!&ndash; Google tag (gtag.js) &ndash;&gt;-->
+<!--<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16676447322"></script>-->
+<!--<script>-->
+<!--  window.dataLayer = window.dataLayer || [];-->
+<!--  function gtag(){dataLayer.push(arguments);}-->
+<!--  gtag('js', new Date());-->
 
-  gtag('config', 'AW-16676447322');
-</script>
-<!-- Event snippet for Просмотр страницы conversion page -->
+<!--  gtag('config', 'AW-16676447322');-->
+<!--</script>-->
+<!-- Event snippet for перегляд сторінки conversion page -->
 <script>
-  gtag('event', 'conversion', {'send_to': 'AW-16676447322/qqoVCNbO6tMZENrI-Y8-'});
+  gtag('event', 'conversion', {
+      'send_to': 'AW-16676447322/B-LCCODYpNQZENrI-Y8-',
+      'value': 1.0,
+      'currency': 'USD'
+  });
 </script>
 		<!-- Event snippet for клік conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<!-- Event snippet for клик conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
 function gtag_report_conversion(url) {
@@ -43,7 +49,7 @@ function gtag_report_conversion(url) {
     }
   };
   gtag('event', 'conversion', {
-      'send_to': 'AW-16676447322/arGgCLu2pNQZENrI-Y8-',
+      'send_to': 'AW-16676447322/dNbyCK2FpdQZENrI-Y8-',
       'value': 50.0,
       'currency': 'UAH',
       'event_callback': callback
