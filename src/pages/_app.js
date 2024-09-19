@@ -29,9 +29,7 @@ useEffect(()=>{
 
   gtag('config', 'AW-16676447322');
 </script>
-		<!-- Event snippet for Клік зовнішнього посилання conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<!-- Event snippet for клик ссылки на сайте conversion page
+		<!-- Event snippet for клік conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
 function gtag_report_conversion(url) {
@@ -41,7 +39,9 @@ function gtag_report_conversion(url) {
     }
   };
   gtag('event', 'conversion', {
-      'send_to': 'AW-16676447322/Vbn_CNnO6tMZENrI-Y8-',
+      'send_to': 'AW-16676447322/arGgCLu2pNQZENrI-Y8-',
+      'value': 50.0,
+      'currency': 'UAH',
       'event_callback': callback
   });
   return false;
