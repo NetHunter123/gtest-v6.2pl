@@ -20,21 +20,18 @@ export default function App({Component, pageProps}) {
       name='viewport'
       content='minimum-scale=1, initial-scale=1, width=device-width'
       />
-      
-      
-   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11422553875"></script>
-<!--<script>-->
-<!--  window.dataLayer = window.dataLayer || [];-->
-<!--  function gtag(){dataLayer.push(arguments);}-->
-<!--  gtag('js', new Date());-->
-
-<!--  gtag('config', 'AW-11422553875');-->
-<!--</script>-->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16676447322"></script>
 <script>
-  gtag('event', 'conversion', {'send_to': 'AW-16676447322/qqoVCNbO6tMZENrI-Y8-'});
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16676447322');
 </script>
 		<!-- Event snippet for Клік зовнішнього посилання conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<!-- Event snippet for клик ссылки на сайте conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
 function gtag_report_conversion(url) {
