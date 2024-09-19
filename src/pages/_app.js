@@ -29,17 +29,10 @@ useEffect(()=>{
 
 <!--  gtag('config', 'AW-16676447322');-->
 <!--</script>-->
-<!-- Event snippet for перегляд сторінки conversion page -->
 <script>
-  gtag('event', 'conversion', {
-      'send_to': 'AW-16676447322/B-LCCODYpNQZENrI-Y8-',
-      'value': 1.0,
-      'currency': 'USD'
-  });
+  gtag('event', 'conversion', {'send_to': 'AW-16676447322/CAMACMCqntQZENrI-Y8-'});
 </script>
-		<!-- Event snippet for клік conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<!-- Event snippet for клик conversion page
+		<!-- Event snippet for клик (1) conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
 function gtag_report_conversion(url) {
@@ -49,9 +42,7 @@ function gtag_report_conversion(url) {
     }
   };
   gtag('event', 'conversion', {
-      'send_to': 'AW-16676447322/dNbyCK2FpdQZENrI-Y8-',
-      'value': 50.0,
-      'currency': 'UAH',
+      'send_to': 'AW-16676447322/oqm9CKejntQZENrI-Y8-',
       'event_callback': callback
   });
   return false;
