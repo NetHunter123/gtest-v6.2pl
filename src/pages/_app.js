@@ -54,7 +54,12 @@ function gtag_report_conversion(url) {
 }
 </script>
 `
+
+
+
 	  }}/>
+
+
 	  
 	  <MantineProvider
 		  withGlobalStyles
