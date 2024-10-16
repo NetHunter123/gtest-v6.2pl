@@ -58,7 +58,7 @@ export default function Home({copiedDataLayer}) {
     //   miniIcon: <IconBrandFacebook strokeWidth={1.7} size={rem(30)}/>
     // },
     {
-      text: "Whatsapp", link: "https://wa.me/77474354080",
+      text: "Whatsapp", link: "https://wa.me/message/EUP3YVH3JKMCG1",
       icon: <IconBrandWhatsapp strokeWidth={1.7} size={rem(40)}/>,
       miniIcon: <IconBrandWhatsapp strokeWidth={1.7} size={rem(30)}/>
     },
@@ -113,7 +113,7 @@ export default function Home({copiedDataLayer}) {
           {/*<Suspense fallback={<Loader/>}>*/}
           {/*  <button onClick={handleClick}>Клікай сука і пробуй</button>*/}
           {/*</Suspense>*/}
-          <Hero pixel={ handleClick}/>
+          <Hero pixel={ handleClick} contacts={contacts}/>
           <About/>
           <Services/>
           {/*<p className="remark py-[20px]">*Результат может варьироваться от случая к случаю</p>*/}

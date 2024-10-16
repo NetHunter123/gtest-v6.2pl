@@ -10,7 +10,7 @@ const gTagConvers = (url) => {
 	gtag_report_conversion(url)
 }
 
-const Hero = ({pixel}) => {
+const Hero = ({pixel, contacts}) => {
 	const md = useMediaQueries("md")
 	const lg = useMediaQueries("lg")
 	console.log("md:", md)
@@ -36,9 +36,9 @@ const Hero = ({pixel}) => {
 						<div className="info__btn flex  gap-[20px] lg:gap-[40px] max-md:mb-0 mb-[60px]">
 							<Button text={"Услуги"} link={"#services"} place={"hero"} variant={"outline"}/>
 							<Button text={"Связаться со мной"} target="_blank"
-							        link={"https://wa.me/77474354080"}
+							        link={`${contacts[0].link}`}
 							        onClick={() => {
-								        gTagConvers("httpgit s://wa.me/message/EUP3YVH3JKMCG1")
+								        gTagConvers(`${contacts[0].link}`)
 							        }}
 							        place={"hero"}/>
 						</div>
