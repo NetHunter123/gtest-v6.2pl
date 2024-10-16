@@ -2,15 +2,15 @@ import '@/styles/globals.css'
 import 'react-medium-image-zoom/dist/styles.css'
 // import Head from "next/head";
 import {MantineProvider} from '@mantine/core'
-// import {useEffect} from "react";
+import {useEffect} from "react";
 // import {gtag} from "ga-gtag";
 
 
 export default function App({Component, pageProps}) {
 
-// useEffect(()=>{
-//   window.dataLayer = window.dataLayer || [];
-// })
+useEffect(()=>{
+  window.dataLayer = window.dataLayer || [];
+})
 
   return <>
 	  <head dangerouslySetInnerHTML={{
@@ -20,21 +20,24 @@ export default function App({Component, pageProps}) {
       name='viewport'
       content='minimum-scale=1, initial-scale=1, width=device-width'
       />
-      
-      
-   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11422553875"></script>
-<!--<script>-->
-<!--  window.dataLayer = window.dataLayer || [];-->
-<!--  function gtag(){dataLayer.push(arguments);}-->
-<!--  gtag('js', new Date());-->
-
-<!--  gtag('config', 'AW-11422553875');-->
-<!--</script>-->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16676447322"></script>
 <script>
-  gtag('event', 'conversion', {'send_to': 'AW-16676447322/qqoVCNbO6tMZENrI-Y8-'});
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16676447322');
 </script>
-		<!-- Event snippet for Клік зовнішнього посилання conversion page
+<!-- Event snippet for перегляд сторінки (1) conversion page -->
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-16676447322/RffbCITFntQZENrI-Y8-',
+      'value': 1.0,
+      'currency': 'USD'
+  });
+</script>
+		<!-- Event snippet for клік зовнішнього посилання conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
 function gtag_report_conversion(url) {
@@ -44,7 +47,7 @@ function gtag_report_conversion(url) {
     }
   };
   gtag('event', 'conversion', {
-      'send_to': 'AW-16676447322/Vbn_CNnO6tMZENrI-Y8-',
+      'send_to': 'AW-16676447322/zmbMCIjiodQZENrI-Y8-',
       'event_callback': callback
   });
   return false;
