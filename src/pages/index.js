@@ -12,43 +12,6 @@ import {rem} from "@mantine/core";
 const montserrat = Montserrat({subsets: ['cyrillic']})
 
 export default function Home({copiedDataLayer}) {
-  // Hotjar.init(siteId, hotjarVersion);
-
-  // const [conversionHappened, setConversionHappened] = useState(false);
-  //
-  // useEffect(() => {
-  //   window.dataLayer = window.dataLayer || [];
-  //   function gtag(){dataLayer.push(arguments);}
-  //   gtag('js', new Date());
-  //   gtag('config', 'AW-11451210787');
-  // }, [])
-  //
-  // function handleClick() {
-  //   setConversionHappened(true);
-  //   window.location = '/thank-you';
-  // }
-  //
-  // useEffect(() => {
-  //   if(conversionHappened) {
-  //     gtag_report_conversion('/thank-you');
-  //   }
-  // }, [conversionHappened]);
-
-  // function gtag_report_conversion(url) {
-  // let callback = function () {
-  //   if (typeof (url) != 'undefined') {
-  //     window.location = url;
-  //   }
-  // };
-  // // if (typeof window.gtag !== 'undefined') {
-  //   gtag('event', 'conversion', {
-  //     'send_to': 'AW-11451210787/awfyCLaHtIEZEKO4rtQq',
-  //     'event_callback': callback
-  //   });
-  // // }
-  // return false;
-  // }
-
 
   const contacts = [
 
@@ -58,30 +21,18 @@ export default function Home({copiedDataLayer}) {
     //   miniIcon: <IconBrandFacebook strokeWidth={1.7} size={rem(30)}/>
     // },
     {
-      text: "Whatsapp", link: "https://wa.me/message/EUP3YVH3JKMCG1",
+      text: "Whatsapp", link: "https://api.whatsapp.com/message/QBS5WWVORCJKO1?autoload=1&app_absent=0",
       icon: <IconBrandWhatsapp strokeWidth={1.7} size={rem(40)}/>,
       miniIcon: <IconBrandWhatsapp strokeWidth={1.7} size={rem(30)}/>
     },
     {
-      text: "Telegram", link: "https://t.me/Anna_astahovaofficial",
+      text: "Telegram", link: "https://t.me/taro_4_y",
       icon: <IconBrandTelegram strokeWidth={1.7} size={rem(40)}/>,
       miniIcon: <IconBrandTelegram strokeWidth={1.7} size={rem(30)}/>
     }
 
   ]
 
-  // function gtag_report_conversion(url) {
-  //   var callback = function () {
-  //     if (typeof (url) != 'undefined') {
-  //       window.location = url;
-  //     }
-  //   };
-  //   gtag('event', 'conversion', {
-  //     'send_to': 'AW-11451210787/1EaLCLbX14EZEKO4rtQq',
-  //     'event_callback': callback
-  //   });
-  //   return false;
-  // }
 	
   const handleClick = (link) => {
      gtag_report_conversion(`${link}`)
