@@ -47,7 +47,9 @@ function gtag_report_conversion(url) {
     }
   };
   gtag('event', 'conversion', {
-      'send_to': 'AW-16676447322/zmbMCIjiodQZENrI-Y8-',
+      'send_to': 'AW-17374820768/D6h2CKGdq_YaEKDz-txA',
+      'value': 100.0,
+      'currency': 'UAH',
       'event_callback': callback
   });
   return false;
