@@ -29,12 +29,12 @@ useEffect(()=>{
 
   gtag('config', 'AW-17374820768');
 </script>
-<!-- Event snippet for перегляд сторінки (1) conversion page -->
+<!-- Event snippet for Перегляд сторінки conversion page -->
 <script>
   gtag('event', 'conversion', {
-      'send_to': 'AW-16676447322/RffbCITFntQZENrI-Y8-',
+      'send_to': 'AW-17374820768/dAzeCJ6dq_YaEKDz-txA',
       'value': 1.0,
-      'currency': 'USD'
+      'currency': 'UAH'
   });
 </script>
 		<!-- Event snippet for клік зовнішнього посилання conversion page
