@@ -32,7 +32,7 @@ useEffect(()=>{
 <!-- Event snippet for Перегляд сторінки conversion page -->
 <script>
   gtag('event', 'conversion', {
-      'send_to': 'AW-17374820768/dAzeCJ6dq_YaEKDz-txA',
+      'send_to': 'AW-17502030556/ZYWyCP_xnYwbENyVz5lB',
       'value': 1.0,
       'currency': 'UAH'
   });
@@ -47,7 +47,7 @@ function gtag_report_conversion(url) {
     }
   };
   gtag('event', 'conversion', {
-      'send_to': 'AW-17374820768/D6h2CKGdq_YaEKDz-txA',
+      'send_to': 'AW-17502030556/9HudCILynYwbENyVz5lB',
       'value': 100.0,
       'currency': 'UAH',
       'event_callback': callback
