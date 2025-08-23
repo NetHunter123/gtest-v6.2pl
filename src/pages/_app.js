@@ -21,13 +21,13 @@ useEffect(()=>{
       content='minimum-scale=1, initial-scale=1, width=device-width'
       />
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17374820768"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17502030556"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'AW-17374820768');
+  gtag('config', 'AW-17502030556');
 </script>
 <!-- Event snippet for Перегляд сторінки conversion page -->
 <script>
