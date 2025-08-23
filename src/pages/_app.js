@@ -21,6 +21,7 @@ useEffect(()=>{
       content='minimum-scale=1, initial-scale=1, width=device-width'
       />
 <!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17502030556"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -29,10 +30,10 @@ useEffect(()=>{
 
   gtag('config', 'AW-17502030556');
 </script>
-<!-- Event snippet for Перегляд сторінки conversion page -->
+<!-- Event snippet for Перегляд сторінки (1) conversion page -->
 <script>
   gtag('event', 'conversion', {
-      'send_to': 'AW-17502030556/ZYWyCP_xnYwbENyVz5lB',
+      'send_to': 'AW-17502030556/HGe3CKjZq4wbENyVz5lB',
       'value': 1.0,
       'currency': 'UAH'
   });
