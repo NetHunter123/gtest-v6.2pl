@@ -26,10 +26,14 @@ export default function Home({copiedDataLayer}) {
       miniIcon: <IconBrandWhatsapp strokeWidth={1.7} size={rem(30)}/>
     },
     {
+
       text: "Telegram", link: "https://t.me/taro_4_y",
       icon: <IconBrandTelegram strokeWidth={1.7} size={rem(40)}/>,
       miniIcon: <IconBrandTelegram strokeWidth={1.7} size={rem(30)}/>
     }
+
+
+
 
   ]
 
