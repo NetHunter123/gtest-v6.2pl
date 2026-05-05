@@ -27,7 +27,7 @@ export default function Home({copiedDataLayer}) {
     },
     {
 
-      text: "Telegram", link: "https://t.me/taro_4_y",
+      text: "Telegram", link: "https://t.me/taroritual1",
       icon: <IconBrandTelegram strokeWidth={1.7} size={rem(40)}/>,
       miniIcon: <IconBrandTelegram strokeWidth={1.7} size={rem(30)}/>
     }
