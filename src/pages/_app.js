@@ -22,23 +22,23 @@ useEffect(()=>{
       />
 <!-- Google tag (gtag.js) -->
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17502030556"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18149320467"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'AW-17502030556');
+  gtag('config', 'AW-18149320467');
 </script>
-<!-- Event snippet for Перегляд сторінки (1) conversion page -->
+<!-- Event snippet for Перегляд сторінки conversion page -->
 <script>
   gtag('event', 'conversion', {
-      'send_to': 'AW-17502030556/HGe3CKjZq4wbENyVz5lB',
+      'send_to': 'AW-18149320467/CHTqCIHstKocEJPOos5D',
       'value': 1.0,
       'currency': 'UAH'
   });
 </script>
-		<!-- Event snippet for клік зовнішнього посилання conversion page
+		<!-- Event snippet for Клік зовнішнього посилання conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
 function gtag_report_conversion(url) {
@@ -48,9 +48,7 @@ function gtag_report_conversion(url) {
     }
   };
   gtag('event', 'conversion', {
-      'send_to': 'AW-17502030556/9HudCILynYwbENyVz5lB',
-      'value': 100.0,
-      'currency': 'UAH',
+      'send_to': 'AW-18149320467/9JCXCP6fl6ocEJPOos5D',
       'event_callback': callback
   });
   return false;
