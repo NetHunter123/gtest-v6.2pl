@@ -11,7 +11,7 @@ import {IconBrandFacebook, IconBrandInstagram, IconBrandTelegram, IconBrandWhats
 import {rem} from "@mantine/core";
 const montserrat = Montserrat({subsets: ['cyrillic']})
 
-export default function Home({copiedDataLayer}) {
+export default function Home() {
 
   const contacts = [
 
@@ -38,19 +38,8 @@ export default function Home({copiedDataLayer}) {
   ]
 
 	
-  const handleClick = (link) => {
-     gtag_report_conversion(`${link}`)
-  }
   return (
     <>
-      {/*<Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11451210787"></Script>*/}
-      {/*<Script id="google-analytics">{`*/}
-      {/*  window.dataLayer = window.dataLayer || [];*/}
-      {/*  function gtag(){dataLayer.push(arguments)}*/}
-      {/*  gtag('js', new Date());*/}
-      {/*  gtag('config', 'AW-11451210787');`}*/}
-      {/*</Script>*/}
-
       <div className={`bg-bgDark text-primary min-h-screen  ${montserrat.className}`}>
         <div className="fixed top-0 left-0 right-0 bg-bgDark z-20">
           <div className="fixed right-[10px]  top-[10px] md:hidden ">
@@ -68,7 +57,7 @@ export default function Home({copiedDataLayer}) {
           {/*<Suspense fallback={<Loader/>}>*/}
           {/*  <button onClick={handleClick}>Клікай сука і пробуй</button>*/}
           {/*</Suspense>*/}
-          <Hero pixel={ handleClick} contacts={contacts}/>
+          <Hero contacts={contacts}/>
           <About/>
           <Services/>
           {/*<p className="remark py-[20px]">*Результат может варьироваться от случая к случаю</p>*/}

@@ -1,100 +1,50 @@
 import '@/styles/globals.css'
 import 'react-medium-image-zoom/dist/styles.css'
-// import Head from "next/head";
+import Head from "next/head"
+import Script from "next/script"
 import {MantineProvider} from '@mantine/core'
-import {useEffect} from "react";
-// import {gtag} from "ga-gtag";
-
 
 export default function App({Component, pageProps}) {
-
-useEffect(()=>{
-  window.dataLayer = window.dataLayer || [];
-})
-
   return <>
-	  <head dangerouslySetInnerHTML={{
-		  __html: `
-      <title>Anna Astachova</title>
+    <Head>
+      <title>Анна Астахова — Таро, снятие проклятий, предсказания</title>
+      <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
       <meta
-      name='viewport'
-      content='minimum-scale=1, initial-scale=1, width=device-width'
+        name="description"
+        content="Профессиональные расклады таро, снятие проклятий и предсказания. Анна Астахова поможет найти решение ваших проблем. Запишитесь на консультацию."
       />
-<!-- Google tag (gtag.js) -->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18149320467"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      <meta property="og:title" content="Анна Астахова — Таро, снятие проклятий"/>
+      <meta property="og:description" content="Профессиональные расклады таро, снятие проклятий и предсказания. Запишитесь на консультацию."/>
+      <meta property="og:type" content="website"/>
+      <meta name="robots" content="index, follow"/>
+    </Head>
 
-  gtag('config', 'AW-18149320467');
-</script>
-<!-- Event snippet for Перегляд сторінки conversion page -->
-<script>
-  gtag('event', 'conversion', {
-      'send_to': 'AW-18149320467/CHTqCIHstKocEJPOos5D',
-      'value': 1.0,
-      'currency': 'UAH'
-  });
-</script>
-		<!-- Event snippet for Клік зовнішнього посилання conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-18149320467/9JCXCP6fl6ocEJPOos5D',
-      'event_callback': callback
-  });
-  return false;
-}
-</script>
-`
+    {/* ── Facebook Pixel ── */}
+    <Script id="facebook-pixel" strategy="afterInteractive">
+      {`
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1544741357044788');
+        fbq('track', 'PageView');
+      `}
+    </Script>
 
-
-
-	  }}/>
-
-
-	  
-	  <MantineProvider
-		  withGlobalStyles
-		  withNormalizeCSS
-		  theme={{
-			  /** Put your mantine theme override here */
-			  // colorScheme: 'dark',
-			  colors: {
-				  x2: ["#222222"]
-			  }
-			  
-			  // components:{
-			  //   Drawer:{
-			  //     body:{
-			  //       backgroundColor:"red",
-			  //       color:"red"
-			  //     },
-			  //
-			  //     closeButton:{
-			  //       backgroundColor:"red",
-			  //       color:"red"
-			  //     },
-			  //     header: { color: 'red' },
-			  //
-			  //     backgroundColor:"#222222"
-			  //   },
-			  //   Button:{
-			  //
-			  //   }
-			  // }
-			  
-		  }}
-	  >
-		  <Component {...pageProps} />
-	  </MantineProvider>
+    <MantineProvider
+      withGlobalStyles
+      withNormalizeCSS
+      theme={{
+        colors: {
+          x2: ["#222222"]
+        }
+      }}
+    >
+      <Component {...pageProps} />
+    </MantineProvider>
   </>
 }

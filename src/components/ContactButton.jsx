@@ -7,7 +7,9 @@ const montserrat = Montserrat({subsets: ['cyrillic']})
 
 const ContactButton = ({text, link, icon, mini = false}) => {
 	return (<Button
-		onClick={() => gtag_report_conversion(link)}
+		onClick={() => {
+			if (typeof fbq === 'function') fbq('track', 'Contact')
+		}}
 		component="a"
 		target="_blank"
 		rel="noopener noreferrer"
