@@ -11,16 +11,6 @@ export default class _Document extends Document {
       <Html lang="ru">
         <Head/>
         <body>
-          {/* Google Tag Manager (noscript — для браузерів без JS) */}
-          <noscript>
-            <iframe
-              src="https://www.googletagmanager.com/ns.html?id=GTM-WWGT8MTL"
-              height="0"
-              width="0"
-              style={{display: 'none', visibility: 'hidden'}}
-            />
-          </noscript>
-
           {/* Facebook Pixel (noscript — для браузерів без JS) */}
           <noscript>
             <img

@@ -16,51 +16,8 @@ export default function App({Component, pageProps}) {
       <meta property="og:title" content="Анна Астахова — Таро, снятие проклятий"/>
       <meta property="og:description" content="Профессиональные расклады таро, снятие проклятий и предсказания. Запишитесь на консультацию."/>
       <meta property="og:type" content="website"/>
-      {/* Розкоментуйте і замініть YOUR_DOMAIN після деплою: */}
-      {/* <meta property="og:image" content="https://YOUR_DOMAIN/firstPhoto.jpg"/> */}
-      {/* <meta property="og:url" content="https://YOUR_DOMAIN"/> */}
       <meta name="robots" content="index, follow"/>
     </Head>
-
-    {/* ── Google Tag Manager ── */}
-    <Script id="gtm" strategy="afterInteractive">
-      {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WWGT8MTL');`}
-    </Script>
-
-    {/* ── Google Ads ── */}
-    <Script
-      src="https://www.googletagmanager.com/gtag/js?id=AW-18149320467"
-      strategy="afterInteractive"
-    />
-    <Script id="google-ads" strategy="afterInteractive">
-      {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'AW-18149320467');
-
-        // Конверсія "Перегляд сторінки" — рахується при кожному завантаженні
-        gtag('event', 'conversion', {
-          'send_to': 'AW-18149320467/CHTqCIHstKocEJPOos5D',
-          'value': 1.0,
-          'currency': 'UAH'
-        });
-
-        // Конверсія "Клік зовнішнього посилання" — викликається вручну при кліку
-        function gtag_report_conversion(url) {
-          var callback = function () {
-            if (typeof url !== 'undefined') {
-              window.location = url;
-            }
-          };
-          gtag('event', 'conversion', {
-            'send_to': 'AW-18149320467/9JCXCP6fl6ocEJPOos5D',
-            'event_callback': callback
-          });
-          return false;
-        }
-      `}
-    </Script>
 
     {/* ── Facebook Pixel ── */}
     <Script id="facebook-pixel" strategy="afterInteractive">
