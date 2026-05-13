@@ -7,13 +7,13 @@ import Zoom from 'react-medium-image-zoom'
 
 
 const gTagConvers = (url) => {
-	gtag_report_conversion(url)
+	if (typeof fbq === 'function') fbq('track', 'Contact')
+	if (typeof gtag_report_conversion === 'function') gtag_report_conversion(url)
 }
 
 const Hero = ({pixel, contacts}) => {
 	const md = useMediaQueries("md")
 	const lg = useMediaQueries("lg")
-	console.log("md:", md)
 	return (<>
 			<div className="container ">
 				<div className={"flex w-full justify-center md:justify-between items-center md:py-[30px] lg:py-[60px]"}>

@@ -8,20 +8,33 @@ export default class _Document extends Document {
 
   render() {
     return (
-      <Html>
-        <Head lang={"ru"}/>
+      <Html lang="ru">
+        <Head/>
         <body>
-{/*        <script dangerouslySetInnerHTML={{*/}
-{/*          __html: `<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWGT8MTL" */}
-{/*height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>*/}
-{/*`*/}
-{/*        }}>*/}
-       {/*</script>*/}
-        <Main/>
-        <NextScript/>
+          {/* Google Tag Manager (noscript — для браузерів без JS) */}
+          <noscript>
+            <iframe
+              src="https://www.googletagmanager.com/ns.html?id=GTM-WWGT8MTL"
+              height="0"
+              width="0"
+              style={{display: 'none', visibility: 'hidden'}}
+            />
+          </noscript>
+
+          {/* Facebook Pixel (noscript — для браузерів без JS) */}
+          <noscript>
+            <img
+              height="1" width="1"
+              style={{display: 'none'}}
+              src="https://www.facebook.com/tr?id=1544741357044788&ev=PageView&noscript=1"
+              alt=""
+            />
+          </noscript>
+
+          <Main/>
+          <NextScript/>
         </body>
       </Html>
     )
   }
 }
-
