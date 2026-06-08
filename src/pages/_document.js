@@ -16,7 +16,7 @@ export default class _Document extends Document {
             <img
               height="1" width="1"
               style={{display: 'none'}}
-              src="https://www.facebook.com/tr?id=1544741357044788&ev=PageView&noscript=1"
+              src="https://www.facebook.com/tr?id=1682482752690793&ev=PageView&noscript=1"
               alt=""
             />
           </noscript>
