@@ -27,12 +27,11 @@ const ContactUs = ({contacts}) => {
            max-w-[500px]
            max-md:flex max-md:flex-col max-md:items-center lg:mr-[30px] max-md:mb-[25px]`}>
             <div className="text-left max-md:text-center max-lg:mb-[15px] mb-[35px]">
-              <h3 className="title relative z-10 text-left max-md:mb-[20px] text-center">Контакты для связи со мной</h3>
-              <p className="sub-title relative z-20 text-left mb-0 text-center mb-[20px]">Отвечу и проконсультирую по любым вопросам, помните, нет такой ситуации, которую нельзя решить!
+              <h3 className="title relative z-10 text-left max-md:mb-[20px] text-center">Kontakt ze mną</h3>
+              <p className="sub-title relative z-20 text-left mb-0 text-center mb-[20px]">Odpowiem i doradzę w każdej sprawie. Pamiętaj – nie ma sytuacji, której nie da się rozwiązać!
               </p>
 
-              <p className={"infoText font-bold text-center"}>Чтобы связаться со мной, отправьте мне сообщение любым удобным для Вас способом.</p>
-              {/*<p className={"infoText font-bold text-center"}>Контакты для связи со мной:</p>*/}
+              <p className={"infoText font-bold text-center"}>Aby się ze mną skontaktować, napisz do mnie w dowolny wygodny dla Ciebie sposób.</p>
             </div>
 	          <div className="btns flex flex-wrap gap-[10px] justify-center">
 		          {contacts.map((btn) => {

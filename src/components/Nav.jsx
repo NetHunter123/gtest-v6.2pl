@@ -4,10 +4,10 @@ import Link from "next/link";
 const Nav = ({row = true, close=()=>{}}) => {
 
   const links = [
-    {title: "Кто я", path: "#about_me"},
-    {title: "Услуги", path: "#services"},
-    {title: "Отзывы", path: "#reviews"},
-    {title: "Контакты", path: "#contacts"},
+    {title: "Kim jestem", path: "#about_me"},
+    {title: "Usługi", path: "#services"},
+    {title: "Opinie", path: "#reviews"},
+    {title: "Kontakt", path: "#contacts"},
   ]
   return (
     <nav className={`w-fit ${row ? "" : "flex flex-col"}`}>

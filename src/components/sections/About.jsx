@@ -17,21 +17,9 @@ const About = () => {
 
           <div className="info max-w-[450px] max-w-[500px] max-lg:max-w-full max-md:text-center">
 
-            {/*<p className={"infoText whitespace-pre-wrap max-w-[431px] max-w-[600px]"}></p>*/}
-
-            {/*<p className={"text-s18 font-[400] mb-[27px]"}>Юлия Коппель - настоящая потомственная ведьма и самый сильный*/}
-            {/*  маг нашего времени. Юлия Коппель принадлежит к*/}
-            {/*  древнейшему жанру "Atsinganos", что означает "маги или предсказатели", она начала заниматься магией, когда*/}
-            {/*  была еще маленькой девочкой.</p>*/}
-            {/*<p className={"text-s18 font-[400] mb-[27px]"}>Все свои магические ритуалы, заклинания и колдовство Юлия*/}
-            {/*  выполняет по всем правилам жанра, что бывает крайне*/}
-            {/*  редко.</p>*/}
-            {/*<p className={"text-s18 font-[400] "}>У вас будет возможность увидеть ритуал и принять в нем участие. Если*/}
-            {/*  Юлия взялась за дело, она обязательно*/}
-            {/*  доведет его до конца, несмотря на усилия, которые ей придется приложить.</p>*/}
-            <p className={"text-s18 font-[400] mb-[27px]"}>Здравствуйте, меня зовут Анна Астахова, я потомственная гадалка, ясновидящая и практикующий ритуалист. Еще в детстве я помогала людям узнать свое будущее и избавляла их от болезней. Несколько раз совершала паломничества по святым местам, долгое время жила в монастыре.</p>
-            <p className={"text-s18 font-[400] mb-[27px]"}>Сегодня ко мне обращаются люди с разными жизненными проблемами - неудачная личная жизнь, родовых проклятия, проблемы самореализации... И я помогаю всем избавиться от оков, обрести счастье и покой, как дома, так и на работе.</p>
-            <p className={"text-s18 font-[400] "}>Все свои магичиские ритуалы, обряды и заклинания я выполняю строго по канонам древних приписаний. У Вас будет возможность увидеть мою работу и принять в ней участие. Если я взялась за работу, то всегда довожу ее до конца!</p>
+            <p className={"text-s18 font-[400] mb-[27px]"}>Dzień dobry, nazywam się Anna Astachowa. Jestem wróżką z dziada pradziada, jasnowidzem i praktykującą rytualistką. Już w dzieciństwie pomagałam ludziom poznać ich przyszłość i uwalniałam ich od chorób. Kilkakrotnie odbyłam pielgrzymki do miejsc świętych, przez długi czas mieszkałam w klasztorze.</p>
+            <p className={"text-s18 font-[400] mb-[27px]"}>Dziś zwracają się do mnie ludzie z różnymi problemami życiowymi – nieudane życie osobiste, klątwy rodowe, trudności z samorealizacją... Wszystkim pomagam uwolnić się od tych okowów, odnaleźć szczęście i spokój zarówno w domu, jak i w pracy.</p>
+            <p className={"text-s18 font-[400] "}>Wszystkie swoje rytuały magiczne, obrzędy i zaklęcia wykonuję ściśle według kanonów dawnych przekazów. Będziesz mieć możliwość zobaczyć moją pracę i wziąć w niej udział. Jeśli podejmuję się pracy, zawsze doprowadzam ją do końca!</p>
           </div>
 
 

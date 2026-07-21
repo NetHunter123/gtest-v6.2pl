@@ -2,7 +2,7 @@ import React from 'react';
 import {Image, Button, rem} from "@mantine/core";
 import {Montserrat} from "next/font/google";
 
-const montserrat = Montserrat({subsets: ['cyrillic']})
+const montserrat = Montserrat({subsets: ['latin', 'latin-ext']})
 
 
 const ContactButton = ({text, link, icon, mini = false}) => {

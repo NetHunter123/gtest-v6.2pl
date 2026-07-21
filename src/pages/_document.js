@@ -8,7 +8,7 @@ export default class _Document extends Document {
 
   render() {
     return (
-      <Html lang="ru">
+      <Html lang="pl">
         <Head/>
         <body>
           {/* Facebook Pixel (noscript — для браузерів без JS) */}

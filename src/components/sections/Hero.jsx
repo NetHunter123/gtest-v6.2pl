@@ -13,23 +13,23 @@ const Hero = ({contacts}) => {
 				<div className={"flex w-full justify-center md:justify-between items-center md:py-[30px] lg:py-[60px]"}>
 
 					<div className="info max-[768px]:flex max-[768px]:flex-col max-[768px]:items-center mr-0 md:mr-[30px]">
-						<h1 className={"text-primary text-[40px] lg:text-s64 font-[300] mb-[10px] max-sm:text-[38px]"}>Анна
-							Астахова</h1>
-						<p className={"infoText text-[18px] lg:text-s22 mb-[25px] max-md:text-center"}>Профессиональные расклады
-							таро, снятие проклятий, предсказания</p>
+						<h1 className={"text-primary text-[40px] lg:text-s64 font-[300] mb-[10px] max-sm:text-[38px]"}>Anna
+							Astachowa</h1>
+						<p className={"infoText text-[18px] lg:text-s22 mb-[25px] max-md:text-center"}>Profesjonalne rozkłady
+							tarota, zdejmowanie klątw, przepowiednie</p>
 						<div className="photo mb-[20px] md:hidden">
 							<Image width={lg ? 384 : md ? 314 : 300} fit={"contain"} withPlaceholder src='./firstPhoto.jpg'
 							       alt="Main Photo"/>
 						</div>
-						<p className={"infoText max-[768px]:text-center text-[16px] lg:text-[18px] whitespace-pre-wrap w-full"}>Я
-							помогу вам найти решение ваших проблем, даже когда известные методы не работают.</p>
+						<p className={"infoText max-[768px]:text-center text-[16px] lg:text-[18px] whitespace-pre-wrap w-full"}>Pomogę
+							Ci znaleźć rozwiązanie Twoich problemów nawet wtedy, gdy znane metody zawodzą.</p>
 						<p
-							className={"infoText max-[768px]:mb-5 text-[16px] lg:text-[18px] font-bold md:mb-[20px] lg:mb-[40px]"}>Запишитесь
-							на консультацию<span className={"block"}>(ПИШИТЕ ИЛИ ЗВОНИТЕ МНЕ НА ВОТСАП)!</span></p>
+							className={"infoText max-[768px]:mb-5 text-[16px] lg:text-[18px] font-bold md:mb-[20px] lg:mb-[40px]"}>Umów
+							się na konsultację<span className={"block"}>(NAPISZ LUB ZADZWOŃ DO MNIE NA WHATSAPP)!</span></p>
 						<div className="info__btn flex  gap-[20px] lg:gap-[40px] max-md:mb-0 mb-[60px]">
-							<Button text={"Услуги"} link={"#services"} place={"hero"} variant={"outline"}/>
+							<Button text={"Usługi"} link={"#services"} place={"hero"} variant={"outline"}/>
 							<Button
-								text={"Связаться со мной"}
+								text={"Skontaktuj się"}
 								target="_blank"
 								link={`${contacts[0].link}`}
 								onClick={() => {

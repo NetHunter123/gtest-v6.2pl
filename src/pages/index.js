@@ -9,7 +9,7 @@ import Reviews from "@/components/sections/Reviews";
 import ContactUs from "@/components/sections/ContactUs";
 import {IconBrandFacebook, IconBrandInstagram, IconBrandTelegram, IconBrandWhatsapp} from "@tabler/icons-react";
 import {rem} from "@mantine/core";
-const montserrat = Montserrat({subsets: ['cyrillic']})
+const montserrat = Montserrat({subsets: ['latin', 'latin-ext']})
 
 export default function Home() {
 
@@ -54,13 +54,9 @@ export default function Home() {
           // className={`flex min-h-screen flex-col items-center justify-between p-24 ${montserrat.className}`}
           className={"overflow-hidden"}
         >
-          {/*<Suspense fallback={<Loader/>}>*/}
-          {/*  <button onClick={handleClick}>Клікай сука і пробуй</button>*/}
-          {/*</Suspense>*/}
           <Hero contacts={contacts}/>
           <About/>
           <Services/>
-          {/*<p className="remark py-[20px]">*Результат может варьироваться от случая к случаю</p>*/}
           <Reviews/>
           <ContactUs contacts={contacts}/>
 

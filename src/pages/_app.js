@@ -7,14 +7,14 @@ import {MantineProvider} from '@mantine/core'
 export default function App({Component, pageProps}) {
   return <>
     <Head>
-      <title>Анна Астахова — Таро, снятие проклятий, предсказания</title>
+      <title>Anna Astachowa — Tarot, zdejmowanie klątw, przepowiednie</title>
       <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
       <meta
         name="description"
-        content="Профессиональные расклады таро, снятие проклятий и предсказания. Анна Астахова поможет найти решение ваших проблем. Запишитесь на консультацию."
+        content="Profesjonalne rozkłady tarota, zdejmowanie klątw i przepowiednie. Anna Astachowa pomoże znaleźć rozwiązanie Twoich problemów. Umów się na konsultację."
       />
-      <meta property="og:title" content="Анна Астахова — Таро, снятие проклятий"/>
-      <meta property="og:description" content="Профессиональные расклады таро, снятие проклятий и предсказания. Запишитесь на консультацию."/>
+      <meta property="og:title" content="Anna Astachowa — Tarot, zdejmowanie klątw"/>
+      <meta property="og:description" content="Profesjonalne rozkłady tarota, zdejmowanie klątw i przepowiednie. Umów się na konsultację."/>
       <meta property="og:type" content="website"/>
       <meta name="robots" content="index, follow"/>
     </Head>
