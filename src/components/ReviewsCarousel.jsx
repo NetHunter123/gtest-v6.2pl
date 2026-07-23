@@ -17,8 +17,6 @@ export default function ReviewsCarousel() {
     {image: "./feedback1.jpg"},
     {image: "./feedback2.png"},
     {image: "./feedback3.png"},
-    {image: "./feedback4.png"},
-    {image: "./feedback5.png"},
   ]
   return (<>
     <Carousel
